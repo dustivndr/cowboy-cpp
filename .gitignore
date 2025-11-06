@@ -1,4 +1,5 @@
-.vscode/
+.cbp
+.layout
 # Prerequisites
 *.d
 
