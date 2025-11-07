@@ -2,4 +2,44 @@
 
 Simple ASCII battle and quiz game in C++
 
-In Progress
+**Currently In Progress**
+
+## Gameplay
+
+You're a Cowboy, wandering through vast land, encountering different bosses, ranging from the easy ones to the hardest ones.<br />
+The gameplay is simple; you move only forward, and at a random time, you will encounter a boss, starting from the easiest one.
+The more bosses you discover, the harder the difficulty will be. You and the boss only have 2 choices: attack or defend.
+
+### Attack
+
+When you attack the boss, there's a chance for the attack to be critical (deals double damage) or 0 (attack fail).
+Attacking an easy boss is 100% guaranteed to succeed (no fail attack).
+
+#### Boosted Attack
+
+This is where the quiz part is.<br />
+You can double the attack damage by answering one quiz question correctly.
+The Attack Booster can only be used once per battle. How long will the effect last depends on the boss difficulty.
+
+| Difficulty | Apply to |
+| :--------- | :------- |
+| Easy       | 1 move   |
+| Medium     | 2 move   |
+| Hard       | 4 move   |
+
+A "move" refers to each time you choose to attack or defend.
+
+- Every attack or defend action counts as one move.
+- For example, if you encounter a medium boss and use the attack booster:
+  - First move: attack (damage is doubled)
+  - Second move: defend
+  - Third move: attack (damage returns to normal)
+
+### Defend
+
+When defending, the player has a 50% chance to block all damage or reflect the boss's attack back at them.
+For hard bosses, only 50% of their attack damage is reflected back when defending.
+
+### Player's Health
+
+While wandering (not in battle), the player's HP automatically increases by 1 point every second, up to a maximum HP limit.
