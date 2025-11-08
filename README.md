@@ -1,12 +1,14 @@
 # Cowboy C++, Battle and Quiz Game
 
-Simple ASCII battle and quiz game in C++
+Simple ASCII battle and quiz game in C++, works in Windows Terminal.<br />
+This is a small project created for fun and is not part of any university coursework.
 
 **Currently In Progress**
 
 ## Gameplay
 
-You're a Cowboy, wandering through vast land, encountering different bosses, ranging from the easy ones to the hardest ones.<br />
+You're a Cowboy, wandering through vast land, encountering different bosses, ranging from the easy ones to the hardest ones.
+
 The gameplay is simple; you move only forward, and at a random time, you will encounter a boss, starting from the easiest one.
 The more bosses you discover, the harder the difficulty will be. You and the boss only have 2 choices: attack or defend.
 
@@ -21,11 +23,11 @@ This is where the quiz part is.<br />
 You can double the attack damage by answering one quiz question correctly.
 The Attack Booster can only be used once per battle. How long will the effect last depends on the boss difficulty.
 
-| Difficulty | Apply to |
-| :--------- | :------- |
-| Easy       | 1 move   |
-| Medium     | 2 move   |
-| Hard       | 4 move   |
+| Difficulty | Apply to  |
+| :--------- | :-------: |
+| Easy       | 1 move    |
+| Medium     | 2 move    |
+| Hard       | 4 move    |
 
 A "move" refers to each time you choose to attack or defend.
 
