@@ -1,6 +1,10 @@
 #include <iostream>
 #include <windows.h>
 #include <conio.h>
+#include <vector>
+
+#include "questions.h"
+#include "scene.h"
 
 using namespace std;
 
@@ -46,15 +50,15 @@ int main()
 {
     bool startGame = mainMenu();
 
-    if (startGame)
+    system("cls");
+
+    if (!startGame) return 0;
+
+    showIntro();
+
+    bool play = true;
+    while (play)
     {
-        system("cls");
-        cout << "Oke";
-    }
-    else
-    {
-        system("cls");
-        return 0;
     }
 
     return 0;
