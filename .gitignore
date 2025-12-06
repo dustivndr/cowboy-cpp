@@ -5,6 +5,9 @@
 *.layout.save
 
 
+# VSCode
+.vscode/
+
 # Prerequisites
 *.d
 
