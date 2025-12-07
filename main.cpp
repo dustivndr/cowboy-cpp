@@ -6,31 +6,29 @@
 #include "questions.h"
 #include "scene.h"
 
-using namespace std;
-
 bool mainMenu()
 {
     bool play = true;
     while(true)
     {
         system("cls");
-        cout << "+------------------------------------------------------------+" << endl;
-        cout << "|                                                            |" << endl;
-        cout << "|                  COWBOY C++                                |" << endl;
-        cout << "|                           BATTLE AND QUIZ                  |" << endl;
-        cout << "|                                                            |" << endl;
-        cout << "|                                                            |" << endl;
-        cout << "|                                                            |" << endl;
-        cout << "|                    PLAY            EXIT                    |" << endl;
+        std::cout << "+------------------------------------------------------------+\n";
+        std::cout << "|                                                            |\n";
+        std::cout << "|                  COWBOY C++                                |\n";
+        std::cout << "|                           BATTLE AND QUIZ                  |\n";
+        std::cout << "|                                                            |\n";
+        std::cout << "|                                                            |\n";
+        std::cout << "|                                                            |\n";
+        std::cout << "|                    PLAY            EXIT                    |\n";
         if (play)
-            cout << "|                    ----                                    |" << endl;
+            std::cout << "|                    ----                                    |\n";
         else
-            cout << "|                                    ----                    |" << endl;
-        cout << "|                                                            |" << endl;
-        cout << "|                                                            |" << endl;
-        cout << "|                                                            |" << endl;
-        cout << "| *use left-right/a-d key to select                          |" << endl;
-        cout << "+------------------------------------------------------------+" << endl;
+            std::cout << "|                                    ----                    |\n";
+        std::cout << "|                                                            |\n";
+        std::cout << "|                                                            |\n";
+        std::cout << "|                                                            |\n";
+        std::cout << "| *use left-right/a-d key to select                          |\n";
+        std::cout << "+------------------------------------------------------------+\n";
 
         char key = getch();
 
